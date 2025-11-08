@@ -19,7 +19,7 @@ app.use(cors({origin:["http://localhost:3000","https://ornate-croquembouche-5454
 //     res.send("Connecting");
 // })
 app.use('/user', user);
-mongoose.connect("mongodb://localhost:27017").then(()=>{
+mongoose.connect("mongodb+srv://arpan2003:arpan123@bookstore.o3puuyo.mongodb.net/").then(()=>{
     console.log("Sucessfully connected");
     app.listen(port, ()=>{
     console.log(`Server is listening on port ${port}`);
