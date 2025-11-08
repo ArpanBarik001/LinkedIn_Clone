@@ -1,31 +1,58 @@
-🧑‍💻 MERN User Post Application
+# 🧑‍💻 MERN User Post Application
 
-A simple MERN stack project where users can sign up, log in, and create posts.
+A simple **MERN stack** project where users can **sign up, log in, and create posts**.  
 All posts are visible to every user in a public feed, showing the most recent posts first.
 
-🚀 Features
-1. User Authentication
+---
 
-Users can register using email and password.
+## 🚀 Features
 
-After registration, users can log in to access the website.
+### 1. **User Authentication**
+- Users can **register** using email and password.
+- After registration, users can **log in** to access the website.
+- Once logged in, the user's **name or profile** appears in the top navigation bar.
 
-Once logged in, the user's name or profile appears in the top navigation bar.
+### 2. **Create Post**
+- Logged-in users can **create a post** with text content (like “Hello world!”).
+- Each post includes:
+  - ✍️ User’s name  
+  - 💬 Post text  
+  - 🕒 Timestamp (when it was created)
 
-2. Create Post
+### 3. **View All Posts**
+- All registered users can view **a public feed** of all posts.
+- Posts are displayed in **reverse chronological order** (latest first).
 
-Logged-in users can create a post with text content (e.g., "Hello world!").
+---
 
-Each post includes:
+## 🛠️ Tech Stack
 
-✍️ User’s name
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | React.js |
+| **Backend** | Node.js + Express.js |
+| **Database** | MongoDB |
+| **Authentication** | JWT (JSON Web Token) |
+| **Styling** | CSS / Tailwind / Bootstrap (your choice) |
 
-🕒 Post text
+---
 
-⏰ Timestamp (when it was created)
+## ⚙️ Setup & Run Instructions
 
-3. View All Posts
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/ArpanBarik001/Linkedin_Clone.git
+cd mern-user-post-app
 
-All registered users can view a public feed of all posts.
+# 2️⃣ Setup and run the backend
+cd backend
+npm install
 
-Posts are displayed in reverse chronological order (latest first).
+npm start
+# Backend will run on http://localhost:5000
+
+# 3️⃣ Setup and run the frontend
+cd ../frontend
+npm install
+npm start
+# Frontend will run on http://localhost:3000
