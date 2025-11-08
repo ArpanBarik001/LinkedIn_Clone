@@ -33,7 +33,7 @@ All posts are visible to every user in a public feed, showing the most recent po
 | **Backend** | Node.js + Express.js |
 | **Database** | MongoDB |
 | **Authentication** | JWT (JSON Web Token) |
-| **Styling** | CSS / Tailwind / Bootstrap (your choice) |
+| **Styling** | CSS |
 
 ---
 
