@@ -15,7 +15,7 @@ export default function Register() {
         password
     };
     axios
-    .post("https://linked-in-clone-sepia.vercel.app/user/register",data)
+    .post("https://linked-in-clone-chi-ten.vercel.app/user/register",data)
     .then(()=>{
         navigate('/login');
     })
