@@ -42,7 +42,7 @@ All posts are visible to every user in a public feed, showing the most recent po
 ```bash
 # 1️⃣ Clone the repository
 git clone https://github.com/ArpanBarik001/Linkedin_Clone.git
-cd mern-user-post-app
+cd LinkedIn_Clone
 
 # 2️⃣ Setup and run the backend
 cd backend
