@@ -14,7 +14,7 @@ export default function Login() {
         password
     };
     axios
-    .post("http://localhost:5000/user/login",data)
+    .post("https://linked-in-clone-sepia.vercel.app/user/login",data)
     .then((response)=>{
         localStorage.setItem("token",response.data.token);
         navigate('/post');
