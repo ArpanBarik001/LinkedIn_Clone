@@ -11,7 +11,7 @@ export default function Name() {
 
         const fetchName = async () => {
             try {
-                const response = await axios.get("http://localhost:5000/user/name", {
+                const response = await axios.get("https://linked-in-clone-sepia.vercel.app/user/name", {
                     headers: { Authorization: `${token}` }, 
                 });
                 setName(response.data); 
