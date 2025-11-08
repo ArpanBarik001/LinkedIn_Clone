@@ -3,6 +3,9 @@
 A simple **MERN stack** project where users can **sign up, log in, and create posts**.  
 All posts are visible to every user in a public feed, showing the most recent posts first.
 
+### Deploment Link: 
+https://ornate-croquembouche-54541f.netlify.app/
+
 ---
 
 ## 🚀 Features
