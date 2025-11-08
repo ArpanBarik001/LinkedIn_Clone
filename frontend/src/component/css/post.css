@@ -1,0 +1,82 @@
+body {
+  background-color: #223243;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.feed-container {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 80px; /* space for navbar + padding */
+  background: #2f3e4f;
+  border-radius: 12px;
+  padding: 20px 30px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+
+.feed-title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.feed-list {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.feed-list::-webkit-scrollbar {
+  width: 6px;
+}
+.feed-list::-webkit-scrollbar-thumb {
+  background-color: #556677;
+  border-radius: 3px;
+}
+
+.user-section {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #3d4d5e;
+  padding-bottom: 15px;
+}
+
+.user-name {
+  color: #5cb3ff;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.post-card {
+  background: #37475a;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.post-card:hover {
+  background: #415a72;
+}
+
+.post-text {
+  color: #e0e0e0;
+  font-size: 0.95em;
+}
+
+.post-date {
+  display: block;
+  text-align: right;
+  font-size: 0.8em;
+  color: #b0b0b0;
+  margin-top: 5px;
+}
+
+.no-posts,
+.no-users,
+.loading {
+  text-align: center;
+  color: #bbb;
+}

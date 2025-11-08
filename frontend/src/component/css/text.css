@@ -1,0 +1,112 @@
+/* Container to center the card */
+.craete-post {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #223243, #30445c);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Card styling */
+.create-post-card {
+  background-color: #fff;
+  padding: 35px 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.create-post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Textarea */
+.create-post-card textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  font-size: 16px;
+  resize: none;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.create-post-card textarea:focus {
+  border-color: #223243;
+  box-shadow: 0 0 8px rgba(34, 50, 67, 0.3);
+  background-color: #f9f9f9;
+}
+
+/* Button */
+.create-post-card button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #223243;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.create-post-card button:hover {
+  background-color: #1a2630;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(34, 50, 67, 0.3);
+}
+
+/* Error message */
+.create-post-card p {
+  margin-top: 8px;
+  color: red;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .create-post-card {
+    padding: 30px 20px;
+    max-width: 90%;
+  }
+
+  .create-post-card textarea {
+    font-size: 15px;
+    
+  }
+
+  .create-post-card button {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .create-post-card {
+    padding: 25px 15px;
+  }
+
+  .create-post-card textarea {
+    font-size: 14px;
+    
+  }
+
+  .create-post-card button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .create-post-card p {
+    font-size: 12px;
+  }
+}
