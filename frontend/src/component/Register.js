@@ -15,7 +15,7 @@ export default function Register() {
         password
     };
     axios
-    .post("http://localhost:5000/user/register",data)
+    .post("https://linked-in-clone-sepia.vercel.app/user/register",data)
     .then(()=>{
         navigate('/login');
     })
