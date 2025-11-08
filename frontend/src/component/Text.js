@@ -19,7 +19,7 @@ export default function Text() {
             text
         };
         const token=localStorage.getItem("token");
-        axios.post("http://localhost:5000/user/text",data, {headers:{Authorization:`${token}`},})
+        axios.post("https://linked-in-clone-sepia.vercel.app/user/text",data, {headers:{Authorization:`${token}`},})
         .then(()=>{
             settext("");
             alert("Post Created Successfully");
