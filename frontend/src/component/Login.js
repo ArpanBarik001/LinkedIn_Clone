@@ -14,7 +14,7 @@ export default function Login() {
         password
     };
     axios
-    .post("https://linked-in-clone-sepia.vercel.app/user/login",data)
+    .post("https://linked-in-clone-chi-ten.vercel.app/user/login",data)
     .then((response)=>{
         localStorage.setItem("token",response.data.token);
         navigate('/post');
