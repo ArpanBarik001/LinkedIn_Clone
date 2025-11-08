@@ -11,7 +11,7 @@ export default function Post() {
         const fetchPosts = async () => {
             try {
                 const token = localStorage.getItem("token");
-                const response = await axios.get("https://linked-in-clone-sepia.vercel.app/user/posts", {
+                const response = await axios.get("https://linked-in-clone-chi-ten.vercel.app/user/posts", {
                     headers: {
                         Authorization: `${token}`,
                     },
